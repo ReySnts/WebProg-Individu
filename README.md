@@ -11,3 +11,5 @@
 1. Tambahkan package Socialite pada CMD.
 2. Tambahkan clientID, clientSecret, dan redirect GitHub pada services.php.
 3. Tambahkan rute untuk redirect dan callback GitHub pada web.php.
+### Referensi
+https://laravel.com/docs/9.x/socialite
