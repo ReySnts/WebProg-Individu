@@ -31,3 +31,21 @@ Route::get
         'display'
     ]
 );
+
+Route::get
+(
+    '/auth/redirect', 
+    [
+        ExampleController::class,
+        'redirect'
+    ]
+);
+
+Route::get
+(
+    '/auth/callback', 
+    [
+        ExampleController::class,
+        'callback'
+    ]
+);
