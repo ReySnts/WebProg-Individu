@@ -7,3 +7,7 @@
 - home.blade.php
 #### Routes
 - web.php
+### Guide
+1. Tambahkan package Socialite pada CMD.
+2. Tambahkan clientID, clientSecret, dan redirect GitHub pada services.php.
+3. Tambahkan rute untuk redirect dan callback GitHub pada web.php.
